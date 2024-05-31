@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav" id="nav">
+        <img src="netflix-logo.png" alt="" class="nav_logo">
+        <img src="netflix-avatar.png" alt="" class="nav_avatar">
+    </div>
+    <!--- header --->
+    <div class="banner">
+        <div class="banner_contents">
+            <h1 class="banner_title">Bahubali </h1>
+            
+            <div class="banner_buttons">
+                <button class="banner_button">Play</button>
+                <button class="banner_button">My list</button>
+            </div>
+            <div class="banner_description">
+            <h2>In the kingdom of Mahishmati, while pursuing his love, Shivudu learns about the conflict ridden past of his family and his legacy. He must now prepare himself to face his newfound arch-enemy.</h2>
+            </div>
+        </div>
+        <div class="banner-fadeBottom"></div>
+    </div>
+    <div class="row">
+        <h2>Netflix Original</h2>
+        <div class="row_posters">
+            <img src="large-movie1.jpg" alt="" class="row_poster row_posterlarge">
+            <img src="large-movie2.jpg" alt="" class="row_poster row_posterlarge">
+            <img src="large-movie3.jpg" alt="" class="row_poster row_posterlarge">
+            <img src="large-movie4.jpg" alt="" class="row_poster row_posterlarge">
+            <img src="large-movie5.jpg" alt="" class="row_poster row_posterlarge">
+            <img src="large-movie6.jpg" alt="" class="row_poster row_posterlarge">
+            <img src="large-movie7.jpg" alt="" class="row_poster row_posterlarge">
+            <img src="large-movie8.jpg" alt="" class="row_poster row_posterlarge">
+            <img src="large-movie9.jpg" alt="" class="row_poster row_posterlarge">
+            <img src="large-movie10.jpg" alt="" class="row_poster row_posterlarge">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Trending Now</h2>
+        <div class="row_posters">
+            <img src="small-movie1.jpg" alt="" class="row_poster">
+            <img src="small-movie2.jpg" alt="" class="row_poster">
+            <img src="small-movie3.jpg" alt="" class="row_poster">
+            <img src="small-movie4.jpg" alt="" class="row_poster">
+            <img src="small-movie5.jpg" alt="" class="row_poster">
+            <img src="small-movie6.jpg" alt="" class="row_poster">
+            <img src="small-movie7.jpg" alt="" class="row_poster">
+            <img src="small-movie8.jpg" alt="" class="row_poster">
+            <img src="small-movie9.jpg" alt="" class="row_poster">
+            <img src="small-movie10.jpg" alt="" class="row_poster">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Top Rated</h2>
+        <div class="row_posters">
+            <img src="t-1.jpg" alt="" class="row_poster">
+            <img src="t-2.jpg" alt="" class="row_poster">
+            <img src="t-3.jpg" alt="" class="row_poster">
+            <img src="t-4.jpg" alt="" class="row_poster">
+            <img src="t-5.jpg" alt="" class="row_poster">
+            <img src="t-6.jpg" alt="" class="row_poster">
+            <img src="t-7.jpg" alt="" class="row_poster">
+            <img src="t-8.jpg" alt="" class="row_poster">
+            <img src="t-9.jpg" alt="" class="row_poster">
+            <img src="t-10.jpg" alt="" class="row_poster">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Horror movies</h2>
+        <div class="row_posters">
+            <img src="h-1.jpg" alt="" class="row_poster">
+            <img src="h-2.jpg" alt="" class="row_poster">
+            <img src="h-3.jpg" alt="" class="row_poster">
+            <img src="h-4.jpg" alt="" class="row_poster">
+            <img src="h-5.jpg" alt="" class="row_poster">
+            <img src="h-6.jpg" alt="" class="row_poster">
+            <img src="h-7.jpg" alt="" class="row_poster">
+            <img src="h-8.jpg" alt="" class="row_poster">
+            <img src="h-9.jpg" alt="" class="row_poster">
+            <img src="h-10.jpg" alt="" class="row_poster">
+        </div>
+    </div>
+    <div class="row">
+        <h2>Action movies</h2>
+        <div class="row_posters">
+            <img src="a-1.jpg" alt="" class="row_poster">
+            <img src="a-2.jpg" alt="" class="row_poster">
+            <img src="a-3.jpg" alt="" class="row_poster">
+            <img src="a-4.jpg" alt="" class="row_poster">
+            <img src="a-5.jpg" alt="" class="row_poster">
+            <img src="a-6.jpg" alt="" class="row_poster">
+            <img src="a-7.jpg" alt="" class="row_poster">
+            <img src="a-8.jpg" alt="" class="row_poster">
+            <img src="a-9.jpg" alt="" class="row_poster">
+            <img src="a-10.jpg" alt="" class="row_poster">
+        </div>
+    </div>
+
+    <script>
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () =>{
+            if(window.scrollY >=100){
+                nav.classList.add('nav_black')
+            }else{
+                nav.classList.remove('nav_black');
+            }
+        })
+    </script>
+</body>
+</html>
